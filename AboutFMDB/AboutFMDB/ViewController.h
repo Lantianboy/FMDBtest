@@ -7,9 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
+typedef NS_ENUM(NSInteger, indext){
+    index1,
+    index2
+};
 
+@interface ViewController : BaseViewController
+
+@property (nonatomic, assign) indext indext ;
+
+@property (nonatomic, copy) void (^selectBlock) (NSMutableArray *) ;
+
+- (void)select:(void(^)(NSString *)) block ;
 
 @end
 

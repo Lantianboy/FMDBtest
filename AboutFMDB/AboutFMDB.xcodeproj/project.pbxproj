@@ -16,6 +16,9 @@
 		A35BE3E021781C3A003E5E55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A35BE3DF21781C3A003E5E55 /* main.m */; };
 		A35BE3EA21781C3A003E5E55 /* AboutFMDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A35BE3E921781C3A003E5E55 /* AboutFMDBTests.m */; };
 		A35BE3F521781C3A003E5E55 /* AboutFMDBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A35BE3F421781C3A003E5E55 /* AboutFMDBUITests.m */; };
+		A35BE40421781E01003E5E55 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35BE40321781E01003E5E55 /* BaseViewController.m */; };
+		A35BE40721781E73003E5E55 /* AddDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35BE40621781E73003E5E55 /* AddDataViewController.m */; };
+		A35BE40A217853C8003E5E55 /* ModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35BE409217853C8003E5E55 /* ModifyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		A35BE3F021781C3A003E5E55 /* AboutFMDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AboutFMDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35BE3F421781C3A003E5E55 /* AboutFMDBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutFMDBUITests.m; sourceTree = "<group>"; };
 		A35BE3F621781C3A003E5E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35BE40221781E01003E5E55 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A35BE40321781E01003E5E55 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A35BE40521781E73003E5E55 /* AddDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddDataViewController.h; sourceTree = "<group>"; };
+		A35BE40621781E73003E5E55 /* AddDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDataViewController.m; sourceTree = "<group>"; };
+		A35BE408217853C8003E5E55 /* ModifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModifyViewController.h; sourceTree = "<group>"; };
+		A35BE409217853C8003E5E55 /* ModifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModifyViewController.m; sourceTree = "<group>"; };
 		DBA182D0FD6F073378C83472 /* libPods-AboutFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AboutFMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,6 +138,12 @@
 				A35BE3D121781C38003E5E55 /* AppDelegate.m */,
 				A35BE3D321781C38003E5E55 /* ViewController.h */,
 				A35BE3D421781C38003E5E55 /* ViewController.m */,
+				A35BE40221781E01003E5E55 /* BaseViewController.h */,
+				A35BE40321781E01003E5E55 /* BaseViewController.m */,
+				A35BE40521781E73003E5E55 /* AddDataViewController.h */,
+				A35BE40621781E73003E5E55 /* AddDataViewController.m */,
+				A35BE408217853C8003E5E55 /* ModifyViewController.h */,
+				A35BE409217853C8003E5E55 /* ModifyViewController.m */,
 				A35BE3D621781C38003E5E55 /* Main.storyboard */,
 				A35BE3D921781C3A003E5E55 /* Assets.xcassets */,
 				A35BE3DB21781C3A003E5E55 /* LaunchScreen.storyboard */,
@@ -343,7 +358,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A35BE40A217853C8003E5E55 /* ModifyViewController.m in Sources */,
+				A35BE40721781E73003E5E55 /* AddDataViewController.m in Sources */,
 				A35BE3D521781C38003E5E55 /* ViewController.m in Sources */,
+				A35BE40421781E01003E5E55 /* BaseViewController.m in Sources */,
 				A35BE3E021781C3A003E5E55 /* main.m in Sources */,
 				A35BE3D221781C38003E5E55 /* AppDelegate.m in Sources */,
 			);
